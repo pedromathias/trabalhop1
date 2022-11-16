@@ -44,7 +44,7 @@ export const Login = ({navigation}) => {
             </View>
             <View style={styles.buttons}>
 
-                <TextInput value={textInput} onChange={onChangeText} style={styles.emailbox} placeholder="Endereço de e-mail" placeholderTextColor={'gray'} />
+                <TextInput value={textInput} onChange={onChangeText} style={styles.emailbox} selectionColor={'#e60022'} placeholder="Endereço de e-mail" placeholderTextColor={'gray'} />
                 <Feather onPress={() => setTextInput('')}  style={styles.eraseemail} name="x-circle" size={24} color="gray" />
                 
                 <TouchableOpacity onPress={() => entrar()} style={styles.continuebutton}>
