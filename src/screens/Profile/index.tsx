@@ -18,6 +18,14 @@ export const Profile = ({navigation}) => {
         
     }
 
+    const home = () => {
+        navigation.reset({
+            index:0,
+            routes:[{name: "Home"}]
+        })
+        
+    }
+
     return (
         <View style={styles.container}>
             <StatusBar style={'light'} />
@@ -43,7 +51,7 @@ export const Profile = ({navigation}) => {
                 <TouchableOpacity style={styles.createbutton}><Text style={styles.createbuttontext}>Criar</Text></TouchableOpacity>
             </View>
             <View style={styles.footer}>
-                <Foundation name="home" size={24} color="white" />
+                <Foundation onPress={() => home()} name="home" size={24} color="white" />
                 <FontAwesome name="search" size={24} color="gray" />
                 <Entypo style={styles.plus} name="plus" size={36} color="gray" />
                 <AntDesign name="message1" size={24} color="gray" />
