@@ -1,15 +1,8 @@
 import React from "react";
-import { View, Modal, TouchableWithoutFeedback, Text, Image, ImageBackground,TouchableOpacity} from "react-native";
+import { View, Modal, TouchableWithoutFeedback, Text,TouchableOpacity} from "react-native";
 import { styles } from "./styles";
-import { Feather, FontAwesome, AntDesign, EvilIcons, FontAwesome5, MaterialCommunityIcons, Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { Feather, Ionicons, MaterialIcons } from '@expo/vector-icons';
 import { ScrollView } from "react-native-gesture-handler";
-import { useNavigation } from "@react-navigation/native";
-
-interface ModalProfileProps {
-   isSelectedModal:boolean, 
-   setIsSelectedModal:void, 
-   navigation:void
-}
 export const ModalProfile = ({ isSelectedModal, setIsSelectedModal, handleLogout}) => {
 
 

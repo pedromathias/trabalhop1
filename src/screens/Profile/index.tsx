@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Image, Text, TextInput, TouchableOpacity, ScrollView } from "react-native";
+import { View, Image, Text, TouchableOpacity} from "react-native";
 import { styles } from "./style";
 import { ModalProfile } from "../../components/ModalProfile/ModalProfile";
 import { Entypo, Ionicons, Foundation, FontAwesome, AntDesign } from '@expo/vector-icons';

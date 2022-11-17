@@ -31,7 +31,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         paddingVertical: 14,
         borderRadius: 100,
-        marginRight: 22
+        marginRight: 24
     },
 
 
@@ -57,10 +57,11 @@ export const styles = StyleSheet.create({
     },
 
     socialNetworkText: {
-        marginTop: 10,
+        marginTop: 3,
         color: 'white',
         position: 'absolute',
-        paddingVertical: 65
+        paddingVertical: 65,
+        fontSize:12
     },
 
     lineModal: {
